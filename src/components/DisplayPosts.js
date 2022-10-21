@@ -6,7 +6,7 @@ import EditPost from './EditPost'
 import { onCreatePost, onDeletePost, onUpdatePost, onCreateComment, onCreateLike } from '../graphql/subscriptions'
 import { createLike } from '../graphql/mutations'
 import CreateCommentPost from './CreateCommentPost'
-import CommentPost from './CommentPost'
+import CommentPost from './commentPost'
 import { FaThumbsUp, FaSadTear } from 'react-icons/fa';
 import {Auth} from 'aws-amplify'
 import UsersWhoLikedPost from './UsersWhoLikedPost'
